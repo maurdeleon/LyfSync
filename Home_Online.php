@@ -23,10 +23,15 @@ else
 <head>
 <title> <?php /* Passing a value through a URL. */ echo $_SESSION['username']; ?> </title>
 </head>
-<body style = "background-image:url(/Lyfsync/BG.png)">
+<body>
 <center>
 <?php
 	include "Header_Online.php"; // Welcoming Header (User successfully logs in).
+	echo "<table><td>";
+	include "TakeATour.php";
+	echo "</td><td>";
+	include "EventsList.php";
+	echo "</td></table>";
 	include "Footer.php";
 ?>
 </center>
