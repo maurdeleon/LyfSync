@@ -1,0 +1,6 @@
+Cannot Do BUT Plan to Do:
+1. Buttons Hover Effects
+2. Create Database for Username, Profile, Display Picture, etc.
+3. AJAX/Dynamic divs (Only they move/change, not entire page).
+4. Navigation Bar and Footer linking from page to page while keeping Header constant (log in complications - SESSION?).
+5. Sticky Footer (Stuck to bottom of the page) *Not neccessary though.
