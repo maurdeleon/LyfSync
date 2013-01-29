@@ -7,9 +7,13 @@ $_SESSION['authuser'] = 0;
 
 //Check username and password information.
 //Username max length: 16 characters.
-if (($_SESSION['username'] == 'maur') and ($_SESSION['password'] == '12345'))
+if (($_SESSION['username'] == 'MaurDeLeon') and ($_SESSION['password'] == '12345'))
 	{
 		$_SESSION['authuser'] = 1;
+		echo "<center>";
+		include "Header_Online.php"; // Welcoming Header (User successfully logs in).
+		include "Profile.php";
+		echo "</center>";
 	}
 else 
 	{
@@ -26,12 +30,6 @@ else
 <body>
 <center>
 <?php
-	include "Header_Online.php"; // Welcoming Header (User successfully logs in).
-	echo "<table><td>";
-	include "TakeATour.php";
-	echo "</td><td>";
-	include "EventsList.php";
-	echo "</td></table>";
 	include "Footer.php";
 ?>
 </center>
