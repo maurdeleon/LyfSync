@@ -1,5 +1,5 @@
 <?php //
-session_start();
+c
 	echo "<center>";
 	include "Header_Online.php"; 
 	include "Terms.php";

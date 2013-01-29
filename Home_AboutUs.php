@@ -1,5 +1,3 @@
-
-
 <?php //
 	echo "<center>";
 	include "Header.php";
