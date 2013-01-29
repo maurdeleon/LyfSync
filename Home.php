@@ -9,7 +9,7 @@
 	echo "</td><td>";
 	include "EventsList.php";
 	echo "</td></table>";
-	include "Footer.php";
+	include "Footer_Offline.php";
 ?>
 </center>
 </body>

@@ -1,5 +1,5 @@
-<?php ?>
-<div style = "width: 1055px; height: 383px; border-radius: 2px; margin-top: 13px; margin-right: 10px; padding-top: 20px; padding-left: 20px; padding-right: 20px; box-shadow: 0px 0px 5px 1px #ccc">
+<?php //Center container (Profile). ?>
+<div style = "width: 1055px; height: 383px; border-radius: 2px; margin-top: 11px; margin-right: 10px; padding-top: 20px; padding-left: 20px; padding-right: 20px; box-shadow: 0px 0px 5px 1px #ccc">
 <?php
 	echo "<table style = 'width: 1000px; margin-top: 15px'><tr><td align = 'center' style = 'width: 500px'>";
 	include "profile_banner.php";

@@ -13,6 +13,7 @@ if (($_SESSION['username'] == 'MaurDeLeon') and ($_SESSION['password'] == '12345
 		echo "<center>";
 		include "Header_Online.php"; // Welcoming Header (User successfully logs in).
 		include "Profile.php";
+		include "Footer_Online.php";
 		echo "</center>";
 	}
 else 
@@ -27,12 +28,5 @@ else
 <head>
 <title> <?php /* Passing a value through a URL. */ echo $_SESSION['username']; ?> </title>
 </head>
-<body>
-<center>
-<?php
-	include "Footer.php";
-?>
-</center>
-</body>
 </html>
 
