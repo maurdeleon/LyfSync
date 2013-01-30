@@ -1,6 +1,6 @@
 <?php // [INDEX] Home: User chooses Sign Up or Log In ?>
 <html><head><title> LyfSync </title></head>
-<body>
+<body background = "BG.gif">
 <center>
 <?php
 	include "Header.php";
