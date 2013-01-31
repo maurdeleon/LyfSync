@@ -1,14 +1,5 @@
-<?php // Log In Form: form that appears on right-hand side of Header once Log In option is chosen; button is clicked ?>
-<?php
-	
-
-?>
-<html>
-<head>
-<title> Log In </title>
-</head>
-<body>
-<div align = "left" style = "width: 380px; height: 85px; background-color: #FFFFFF; border: solid 1px #FFFFFF; border-radius: 5px; box-shadow: 0px 0px 4px 0px #86B404; padding-top: 2px">
+<?php /* Log In Form: form that appears on right-hand side of Header once Log In option is chosen; button is clicked */ ?>
+<div align = "left" style = "width: 380px; height: 85px; background-color: #FFFFFF; border: solid 1px #FFFFFF; border-radius: 5px; box-shadow: 0px 0px 4px 0px #86B404; padding-top: 2px; display:none;">
 <form method="post" action="ProfilePage.php">
 	<table align = "center" style="padding-top:15px">
 		<tr>
@@ -22,5 +13,3 @@
 	</table>
 </form>
 </div>
-</body>
-</html>
