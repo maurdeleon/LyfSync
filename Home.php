@@ -5,7 +5,7 @@
 <?php
 	include "Header.php";
 	echo "<table><td>";
-	include "TakeATour.php";
+	include "Intro.php";
 	echo "</td><td>";
 	include "EventsList.php";
 	echo "</td></table>";

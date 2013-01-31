@@ -3,9 +3,7 @@
 <?php
 	echo "<table><td align = 'left'>";	
 	include "logo.php";
-	echo "</td><td>";
-	include "navbar_offline.php";
-	echo "</td><td>";
+	echo "</td><td align = 'right'>";
 	include "signuplogin.php";
 	echo "</td></table>";
 ?>

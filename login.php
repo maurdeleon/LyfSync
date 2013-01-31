@@ -9,7 +9,7 @@
 </head>
 <body>
 <div align = "left" style = "width: 380px; height: 85px; background-color: #FFFFFF; border: solid 1px #FFFFFF; border-radius: 5px; box-shadow: 0px 0px 4px 0px #86B404; padding-top: 2px">
-<form method="post" action="ProfilePage.php">
+<form method="post" action="Home_Online.php">
 	<table align = "center" style="padding-top:15px">
 		<tr>
 		<td align = "Center"><input type="text" name="User" style="font-family: Calibri; font-size: 13px; width:170px; height: 27px; background-color: #ffffff; border-radius: 4px; border:solid 1px #BFBDBD; box-shadow: 0px 0px 0 #E6E6E6 inset; padding-left: 6px" placeholder="Username"></td>

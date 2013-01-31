@@ -1,5 +1,6 @@
 <?php // Home: User chooses Sign Up and beings sign up ?>
 <html><head><title> LyfSync: Sign Up </title></head>
+<body background = "BG.gif">
 <body>
 <center>
 <?php

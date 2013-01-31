@@ -16,9 +16,16 @@
 	echo "</td></tr>";
 	echo "</td>";
 	echo "<tr><td>";
-		include "discover.php";
+		include "calendar.php";
 	echo "</tr>";
 	echo "</td></tr></table>";
 	echo "</table>";
 ?>
 </div>
+<html>
+<head>
+<title> <?php /* Passing a value through a URL. */ echo $_SESSION['username']; ?> </title>
+</head>
+<body background = "BG.gif">
+</body>
+</html>

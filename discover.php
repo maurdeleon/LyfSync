@@ -1,10 +1,5 @@
-<?php //Discover Events link ?>
-<a href = 'Profile_DiscoverEvents.php'>
-<div align = "left" valign = "middle" style = "width: 270px; height: 30px; background-color: #FFFFFF; border: solid 1px #FFFFFF; border-radius: 5px; box-shadow: 0px 0px 4px 0px #86B404; padding-top: 5px; padding-left: 8px">
-<?php
-	echo "<table>";
-	echo "<td><font face = 'Calibri' size = '3'> Discover Events </font></td>";
+<?php // 
+	echo "<table style = 'width: 620px; height: 298px; border: solid 1px #E6E6E6; border-radius: 4px'>";
+	echo "<td align = 'center' valign = 'middle'><font face = 'Calibri' size = '6' color = '#A4A4A4'>EVENTS<br>DISCOVERY</font></td>";
 	echo "</table>";
 ?>
-</div>
-</a>

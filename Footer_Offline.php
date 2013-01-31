@@ -1,5 +1,5 @@
 <?php // Footer ?>
-<div align = "center" style = "width: 1210px; height: 70px; background-color: #E0E0E0; border-radius: 0px; box-shadow: 0px 0px 2px 1px #ccc; padding-top: 15px; margin-top: 11px">
+<div align = "center" style = "width: 1210px; height: 70px; background-color: #E0E0E0; border-radius: 0px; box-shadow: 0px 0px 2px 1px #ccc; padding-top: 15px; margin-top: 10px">
 <?php
 	echo "<table style='height: 50px; vertical-align: middle'>";
 	echo "<tr><td align = 'center' valign = 'bottom'><img src = /LyfSync/AGD.jpg style = 'height: 9px'></td>";

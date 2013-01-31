@@ -1,3 +1,5 @@
+<html><head><title> LyfSync: Contact Us </title></head>
+<body background = "BG.gif">
 <?php
 	echo "<center>";
 	include "Header.php";
@@ -5,3 +7,5 @@
 	include "Footer_Offline.php";
 	echo "</center>";	
 ?>
+</body>
+</html>

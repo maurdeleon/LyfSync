@@ -1,4 +1,4 @@
-<?php //Contact us. ?>
+<?php //Settings. ?>
 <div style = "width: 1055px; height: 381px; border-radius: 2px; margin-top: 11px; margin-bottom: 13px; margin-right: 10px; padding-top: 20px; padding-left: 20px; padding-right: 20px; box-shadow: 0px 0px 5px 1px #ccc">
 <?php
 	echo "<table style = 'height: 300px'>";
@@ -13,7 +13,7 @@
 			echo "<table style = 'width: 970px; margin-left: 10px'>";
 				echo "<tr>";
 					echo "<td align = 'left' valign = 'middle' style = 'height: 50px; border-top: solid 1px #E6E6E6; border-bottom: solid 1px #E6E6E6'>";
-					echo "<b><font face = 'Calibri' size = '5' color = '#2E2E2E'>Contact </font><font face = 'Calibri' size = '5' color = '#63BA33'>LyfSync</font></b></td>";
+					echo "<b><font face = 'Calibri' size = '5' color = '#2E2E2E'>Settings </font></b></b></td>";
 				echo "</tr>";
 				echo "<tr>";
 					echo "<td></td>";

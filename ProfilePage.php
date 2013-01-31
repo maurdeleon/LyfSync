@@ -1,34 +1,16 @@
-<?php // Home: User successfully logs in. ?>
-<?php
+<?php // Home: User successfully logs in. 
 session_start();
-$_SESSION['username'] = $_POST['User'];
-$_SESSION['password'] = $_POST['Pass'];
-$_SESSION['authuser'] = 0;
-
-//Check username and password information.
-//Username max length: 16 characters.
-if (($_SESSION['username'] == 'MaurDeLeon') and ($_SESSION['password'] == '12345'))
-	{
-		$_SESSION['authuser'] = 1;
-		echo "<center>";
-		include "Header_Online.php"; // Welcoming Header (User successfully logs in).
-		include "Profile.php";
-		include "Footer_Online.php";
-		echo "</center>";
-	}
-else 
-	{
-		// Links to homepage with Log In TRY AGAIN.
-		include "Home_LogInFailed.php";
-		exit();
-	}	
 ?>
-
-<html>
-<head>
-<title> <?php /* Passing a value through a URL. */ echo $_SESSION['username']; ?> </title>
-</head>
+<html><head><title><?php /* Passing a value through a URL. */ echo $_SESSION['username']; ?> </title></title></head>
 <body background = "BG.gif">
+<?php
+	echo "<center>";
+	include "Header_Online.php";
+	include "Profile_Calendar.php";
+	include "Footer_Online.php";
+	echo "</center>";
+?>
 </body>
 </html>
+
 
